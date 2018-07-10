@@ -1,0 +1,619 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[table]{xcolor}
+\usepackage{hyperref}
+\usepackage[natbibapa]{apacite}
+\usepackage[english]{babel}
+\usepackage[pdftex]{graphicx}
+\usepackage{syntonly}
+\usepackage{verbatim}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage[titletoc]{appendix}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{setspace}
+\usepackage[none]{hyphenat}
+\usepackage{bookmark}
+\usepackage[official]{eurosym}
+\usepackage{pdfpages}
+\usepackage{bibentry}
+\usepackage{array}
+\usepackage{enumerate}
+\usepackage{titlecaps}
+
+\usepackage[procnames]{listings}
+\usepackage[most]{tcolorbox}
+\usepackage{inconsolata}
+
+\usepackage{caption}
+
+\setcounter{secnumdepth}{5}
+
+\onehalfspacing
+
+\bibliographystyle{apacite}
+
+\hypersetup{
+pdfauthor = {Craig Marais},
+pdftitle = {Rhodes University Humans versus Zombies 2018 Rules},
+pdfsubject = {HvZ Rules},
+pdfkeywords = {Rhodes University, 2018, Humans, Zombies, HvZ}}
+
+\title{Rhodes University Humans versus Zombies 2018 Rules}
+\author{Craig Marais}
+
+% ------------------------------------------------------------- VARIABLES
+\newcommand{\SZO}{Kate Panton}
+\newcommand{\SZOSP}{she}
+\newcommand{\SZOOP}{her}
+
+\newcommand{\SIC}{Lily Roberts}
+\newcommand{\SICSP}{she}
+\newcommand{\SICOP}{her}
+
+\newcommand{\theWebDude}{Greg Linklater}
+%\newcommand{\theOtherWebdude}{Stjohn Giddy}
+%\newcommand{\theOtherOtherWebdude}{Craig Marais} JUST GREG ;_;
+
+\newcommand{\HumanLeader}{Kate Panton}
+\newcommand{\ZombieLeader}{Matt Huber}
+
+
+
+
+\begin{document}
+\definecolor{keywords}{RGB}{0,0,0}
+\definecolor{comments}{RGB}{0,0,0}
+\definecolor{red}{RGB}{0,0,0}
+\definecolor{green}{RGB}{0,0,0}
+
+\bookmark[page=1,level=1]{Title Page}
+\bookmark[page=2,level=1]{Contents}
+
+\begin{titlepage}
+\pagestyle{empty}
+\begin{center}
+
+
+
+
+\rule{\linewidth}{0.5mm}
+\\[5mm]
+
+{\Large \bfseries Rhodes University Humans versus Zombies}
+\rule{\linewidth}{0.5mm}
+\\[5mm]
+
+\textsc{\Large 2018 Rules}
+\\[5mm]
+
+\vfill
+
+\textbf{Drafted July 2018}
+
+\end{center}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+%\chapter{Rules} % (fold)
+
+\newpage
+\section{Introduction}
+Amendments will be added as additional rules with higher numbers. Thus it follows that:
+\\
+{\bf A higher number rule will always take priority over a lower numbered rule.}\\
+Author's note: These rules seek to create a fair, inclusive playing field for all interested students. If you find any portion of these rules to be biased or offensive in anyway, please do not hesitate to contact a member of the administrator team. We will hold such grievances in complete confidence.
+
+\section{Roles}
+
+The administrator roles are as follows:
+\begin{itemize}
+    \item {The Supreme Zombie Overlord}
+    \item {The Number Two}
+    \item {The Web Guy}
+    \item {Administrators}
+    \item {Faction Leaders}
+\end{itemize}
+
+The full list of the administrator team is:
+\label{Admins}
+\begin{itemize}
+    \item {Matt Huber}
+    \item {Ben Kirkaldy}
+    \item {Andrew Knight}
+    \item {Andrew Marais}
+    \item {Chris O'Brien}
+    \item {Kate Panton}
+    \item {Lily Roberts}
+    \item {Liam Searle}
+    \item {Ben Sturgeon}
+    \item {William ``Salty'' Walters} 
+\end{itemize}
+
+\subsection{The Supreme Zombie Overlord}
+
+This year the \emph{Numero Uno} is \SZO. \titlecap{\SZOOP}~word is law.\\
+
+\titlecap{\SZOSP}~has the authority to permanently remove any player in any role from the current game.\\
+
+\titlecap{\SZOSP}~holds all powers that any other administrator holds.\\
+
+\titlecap{\SZOOP}~rulings are final but in extreme cases, a decision may be vetoed by a majority administrator vote which must include the \emph{Number Two}.
+
+\subsection{The Number Two}
+
+This year the \emph{Number Two} is \SIC.
+
+\titlecap{\SICSP}~does the bidding of the \emph{Supreme Zombie Overlord}. During the absence of the \emph{Supreme Zombie Overlord},~\SICSP~will act in~\SZOOP~place.
+
+Any grievances with the \emph{Supreme Zombie Overlord} must be reported to the \emph{Number Two}.
+
+\titlecap{\SICSP}~holds all powers that any other administrator holds.
+
+Sometimes the \emph{Number Two} likes to be called the ``Second in Command'' or ``2IC'' for short.
+
+\subsection{The Web Guy}
+The webguy is \theWebDude. 
+
+This guy knows computers. He can help if you encounter any problems using the website or mobile app.
+
+He holds all powers that any other administrator holds.
+
+\subsection{Administrator Team}
+
+The Administrator Team is your ``go-to-for-help''.
+
+They can resolve with finality the following:
+
+\begin{itemize}
+    \item {Misconduct of any player.}
+    \item {Incorrect bite codes.}
+    \item {Disputed tags or stuns (from either player).}
+    \item {Suspend a player.}
+    \item {Temporarily halt the game.}
+\end{itemize}
+
+\begin{enumerate}[(a)]
+    \item There are a number people on the Administrator Team, listed in Section~\ref{Admins}.
+    \item Administrator team members will wear different colour bandannas all times while in the play area.
+    \item Administrator team members are neither Human nor Zombie.
+\end{enumerate}{}
+
+\subsection{Faction Leaders}
+Each faction (Humans and Zombies), has a designated representative from the Administrator Team.\\
+
+The duties of the faction leaders include monitoring each faction through various means of communication, briefing each faction at various missions, hearing grievances from players, and resolving rule disputes.
+
+Faction leaders are the first port of call for any player in their faction that has a grievance. If the faction leader is not available, players should go to one of the other administrator team members listed previously.
+
+The faction leaders are as follows:
+
+\begin{center}
+    \par Humans: \HumanLeader
+    \par Zombies: \ZombieLeader
+\end{center}
+
+
+% \subsection{Veteran Players}
+%
+% \begin{enumerate}[(a)]
+%     \item These are players who know the rules well who have been selected to be the eyes and ears of the admin team.
+%    \item They hold no power over any other player and may NOT pass any rulings, they will appear as normal players.
+%    \item They will inform administrators directly of anything deemed necessary or important
+%\end{enumerate}
+
+\subsection{NPC}
+
+\begin{enumerate}[(a)]
+    \item During missions (and select other times), some of the administrator team members may take up an alternate role.
+    \item These roles will have specific rules associated with them and will be communicated to players when/as applicable.
+    \item An administrator in this position maintains all previous powers.    
+\end{enumerate}
+
+\subsection{Zombies}
+
+\begin{enumerate}[(a)]
+    \item Zombies are players which have been `bitten'.
+    \item Zombies must wear their bandanna visibly around their heads at all times while in the play area.
+    \item A Zombie's bandanna cannot be hidden by long hair, clothing, hats of any kind, or in any other deliberate manner.
+    \item Zombies have a responsibility to ensure that their bandanna does not become obscured (hidden) during the course of play.
+
+\end{enumerate}
+
+\subsubsection{Stunned Zombies}
+\label{StunnedZombies}
+\begin{enumerate}[(a)]
+    \item A stunned Zombie must wear their bandanna visibly around their neck at all times while in the play area.
+    \item A zombie must pull the bandanna down to around their neck upon becoming stunned.
+    \item A stunned zombies stays stunned for 20 minutes, after which they revert to being a regular zombie from a safe zone.
+    \item Stunned zombies may not tag humans, but are still considered zombies for rules purposes.
+    \item Stunned zombies may not physically interfere with game-play, such as acting as a shield for other zombies.
+    \item Stunned zombies may still communicate freely with other zombies.
+    \item Stun rules may change for missions, and as a result of missions. 
+    \item Changes will be communicated out to all players via e-mail.
+\end{enumerate}
+
+
+\subsubsection{The Original Zombie}
+\label{OZrules}
+Usually referred to as the OZ (``Oh-Zee''), this player starts the game as a zombie.
+
+\begin{enumerate}[(a)]
+    \item From the start of the game until 1 p.m. of the first day, the OZ wears their bandanna as if they are human. 
+    \item During this initial period the OZ may tag humans as per usual tag rules.
+    \item The OZ cannot be stunned at all until 1 p.m. of the first day.
+    \item It is in the players' best interest not to reveal the identity of the OZ during the first half of the first day. (See Section~\ref{dbad}.)
+    \item After 1 p.m. of the first day the OZ becomes a regular zombie.
+    \item The OZ abides by all other zombie rules.
+    \item There may be more than one OZ under certain conditions.
+    \item During this initial period, the OZ may not lie about their role if asked by another player, they may however choose to remain silent. 
+\end{enumerate}
+
+\subsection{Humans}
+
+\begin{enumerate}[(a)]
+    \item Humans must wear their bandanna visibly above the elbow on their arm at all times while in the play area.
+    \item A human's bandanna cannot be hidden by long hair, clothing, carried items, or in any other deliberate manner.
+    \item Humans may not disguise their bandanna by wearing it over clothing of a similar colour.
+    \item Human have a responsibility to ensure that their bandanna does not become obscured (hidden) during the course of play.
+    \item Humans may carry ammunition for use against zombies.
+    \item Humans must attend at least one supply drop per day, failure to do so may lead to starvation.
+    \item If a human is tagged by a zombie they are said to be incubating.
+\end{enumerate}
+
+\subsubsection{Incubating}
+\label{Incubating}
+\begin{enumerate}[(a)]
+    \item Incubating humans must wear their bandanna visibly around their hand at all times while in the play area.
+    \item A incubating human's bandanna cannot be hidden by clothing, carried items, or in any other deliberate manner.
+    \item Incubating humans may choose to help either the humans or the zombies until their incubation period ends.
+    \item Incubation last for 20 minutes.
+    \item After 20 minutes, a player must check the website to ensure that they have been logged as ``killed''. If they have not been been logged they must contact an administrator to correct this as soon as possible.
+    \item They remain incubating until such time as the website reflects that they have changed to a zombie.
+    \item A human that has finished incubating must proceed to a safe-zone, once they enter a safe-zone they become a zombie.
+    \item A human may not complete incubation from outside of a safe-zone.
+    \item Incubation rules may change during missions, you will be briefed before missions in such a case.
+    \item Incubating humans may not tag another human player (They are not fully zombie yet).
+\end{enumerate}
+
+
+
+\subsection{Players}
+
+\begin{enumerate}[(a)]
+    \item This is any person participating in the HvZ game.
+    \item Players agree to abide by all rules set forth in this document.
+    \item All players are required to sign a waiver for the current game. Failure to sign will result in them being removed from the game. 
+    \item If questioned, a player may not lie about their current role (Human, Zombie or Incubating). They may however choose to not answer. 
+    \item A player may not masquerade as another role, such as wearing their bandanna incorrectly.
+    \item The {\bf ONLY} exception to the above is the OZ's role during the first day. (See Section~\ref{OZrules})
+\end{enumerate}
+
+\subsubsection{Suspended players}
+
+\begin{enumerate}[(a)]
+    \item A player found to violate any rule may be placed in suspension until the violation has been investigated and dealt with by an administrator.
+    \item A suspended player does not wear their bandanna.
+    \item A suspended player may not continue to take part in the game under any circumstances until the suspension has been lifted, this includes warning players, acting as a scout, or shield.
+    \item As far as other players are concerned they become non-players and all non-player rules apply.
+\end{enumerate}
+
+
+\subsection{Non-Players}
+\begin{enumerate}[(a)]
+    \item This is any person not participating in the game of HvZ.
+    \item Please show these people the respect you would normally. Do not inconvenience them with your actions.
+    \item Any player removed from the game ceases to be a player and becomes a non-player. 
+    \item No interaction with non-players is allowed in terms of the game, this includes but is not limited to: using non-players as shields, asking non player to assist in capturing another player, or using non-players  as scouts.
+\end{enumerate}
+\section{Rules}
+
+\subsection{Tagging}
+
+\begin{enumerate}[(a)]
+    \item If a zombie succeeds in firmly touching a human while in a  play area, the human is said to have been tagged.
+    \item Tags must be on the person.
+    \item Bags on backs or sling bags count for tag purposes, while loosely held bags do not.
+    \item Humans may not wear bags or ammunition for the purpose of obstructing tags.
+    \item Do not inappropriately touch any person.
+    \item Tags must occur within play zones.
+    \item Tags cannot occur within no-play zones.
+    \item Tags can occur within safe zones, only under specific conditions (See Section~\ref{SafeZoneTag}). 
+    \item In the event of a successful tag, the human must hand their bite code to the zombie if they are happy that the tag is legitimate. Once the human has handed over their bite code, they can no longer dispute the tag.    
+    \item Once tagged a human becomes incubating. (See Section~\ref{Incubating})
+    \item In the event of a tag dispute, the human must {\bf NOT} give their bite code to the zombie. Both players should take down each others contact details and name, the human player must remove themselves from play by taking off their bandanna and approaching an administrator preferably with the zombie to sort out the dispute, the human player may only rejoin play with an `OK' from an administrator.
+    \item Tag disputes can only be resolved by a member of the administrator team. 
+    \item Tags occur one at a time (no multi-tagging). The zombie must receive the first player's bite code before they can attempt to tag another player. The zombie is permitted to delay recording the first tag briefly, but is urged to do so as soon as possible.
+\end{enumerate}
+
+\subsubsection{Safe Zone Tag Conditions}
+\label{SafeZoneTag}
+\begin{enumerate}[(a)]
+    \item The zombie must be outside of the safe zone reaching inwards.
+    \item The zombie must have both feet firmly on the ground.  
+    \item The zombie cannot be supported or hanging in anyway.
+\end{enumerate}
+
+
+\subsection{Stunning}
+
+\begin{enumerate}[(a)]
+    \item A zombie (in a play zone) when struck by ammunition becomes a stunned zombie. (See Section~\ref{StunnedZombies})
+    \item A player throwing ammunition from within a safe zone must step outside of the safe zone with both feet after doing so (before throwing any more ammunition), and may immediately re-enter the safe zone thereafter.
+    \item A zombie cannot be stunned while in a safe zone.
+    \item Stuns must be on the person.
+    \item Bags on backs or sling bags count for stun purposes, while loosely held bags do not. 
+    \item Zombies may not wear bags for the purpose of obstructing stuns.
+    \item Zombies may not use to bags to deflect incoming stuns.
+    \item Stuns must occur within play zones.
+    \item Stuns cannot occur within no-play zones.
+    \item Do not inappropriately throw socks at any person.
+    \item Stun disputes can only be resolved by a member of the administrator team.
+\end{enumerate}
+
+\subsection{Feeding \& Bite codes}
+
+\begin{enumerate}[(a)]
+    \item A player's bite code is secret, it must not be distributed unless due to a successful tag.
+    \item Feeding is the act of successfully logging a bite code.
+    \item Bite codes must be logged as soon as possible.
+    \item A bite code feeds only one zombie, unless otherwise specified by an administrator.
+\end{enumerate}
+
+\subsection{Starvation}
+A starved player will be removed from the game.
+    \subsubsection{Humans}
+    Starvation occurs if a human fails to attend sufficient supply drops within the designated period.
+
+\subsection{Play Zones}
+Play zones must meet the following criteria.
+\begin{itemize}
+    \item On campus.
+    \item Outdoors. There must be an unobstructed view of the sky (or clouds).
+    \item The area under any tree is a play zone. 
+    \item The Botanical Gardens during daylight hours (7 a.m. to 6 p.m.).
+    \item See the play zone map for clarification.
+\end{itemize}
+
+\subsection{Play Time}
+The game is active from 7 a.m. to 7 p.m. daily.
+\subsubsection{Mission Times}
+Mission evenings may extend the active play time.
+\begin{enumerate}[(a)]
+    \item Mission times are variable and will be announced at briefings.
+    \item Mission times may be ended prematurely by the administrator team.
+    \item Once a mission ends, game-play is suspended for that day.
+\end{enumerate}
+
+\subsection{Safe Zones}
+Safe Zones are the following:
+\begin{itemize}
+    \item The \emph{Day Kaif} area (will be demarcated).
+    \item The immediate area around the RU Library(will be demarcated).
+    \item The Botany Department premises, including the garden enclosed by the gates and walls.
+    \item Any area on campus with a permanent roof overhead. (Such as the area around the Fountain Square.)
+    \item Other areas may be demarcated as safe zones as the game progresses.
+    \item Personal safe zones created after crossing a road (See Section~\ref{PersonalSafeZoneRules}).
+\end{itemize}
+
+Rules for safe zones:
+\begin{enumerate}[(a)]
+    \item During missions safe zones do not exist, unless otherwise specified.
+    \item Leaving a safe zone is the act of placing any part of your body on the ground outside the safe zone, and must immediately be proceeded by placing both feet on the ground outside of the safe zone.
+    \item A human may enter and leave a place zone as they please.
+    \item A zombie cannot be stunned while they are in a safe zone.
+    \item A human may not be tagged in a safe zone by a zombie in a safe zone.
+\end{enumerate}
+
+\subsection{No-play Zones}
+No-play zones are as follows:
+\begin{itemize}
+    \item Anywhere off campus.
+    \item Indoors.
+    \item Doors (See additional rules).
+    \item Stairs (See additional rules).
+    \item Roads and parking-lots (See additional rules).
+    \item Cars (See additional rules).
+    \item The Botanical Gardens are no-play at night for safety concerns.
+    \item The Provost Caf\'e is {\bf NOT} on campus. 
+    \item In trees, bushes, and gardens.
+    \item Any sporting or academic activities.
+    \item Other areas may be demarcated as no-play zones if events on campus warrant it.
+\end{itemize}
+
+Rules for no-play zones:
+\begin{enumerate}[(a)]
+    \item If possible, avoid no-play zones.
+    \item Players should proceed though no-play zones as they would normally (Do not run).
+    \item Humans using no-play zones to avoid tags are liable to be suspended.     
+    \item Attempting to tag a human in a no-play zone is liable to get a zombie suspended.
+    \item You may not enter a no play zone if you are actively being chased.
+    \item Zombies are expected to allow humans to traverse these areas safely, and visa versa (See Section~\ref{dbad}).
+\end{enumerate}
+
+\subsubsection{Doors}
+\begin{enumerate}[(a)]
+    \item The immediate area around any doorway has an arms length no-play zone around it for any player able and intending to entering that door. 
+    \item Leaving a door, a player immediately enters a play zone.
+    \item Abusing doors is liable to get a player suspended.
+\end{enumerate}
+
+\subsubsection{Stairs}
+\begin{enumerate}[(a)]
+    \item Stairs are defined as anything more than 2 steps up, down, or both.
+    \item Players must exercise due caution when on stairs.
+    \item Players may not remain on stairs to avoid a tag or stun.
+\end{enumerate}
+
+\subsubsection{Roads and parking-lots}
+\begin{enumerate}[(a)]
+    \item Any tarred, brick, or paved area designed for motor vehicle travel is considered a road or parking-lot.
+    \item Parking-lots are no play zones whenever there is a running or moving vehicle present.
+    \item Players must exercise due caution when crossing roads.
+\end{enumerate}
+
+Crossing of roads:
+\begin{enumerate}[(a)]
+    \item Roads remain no-play zones even during the event of a crossing.
+    \item After exit a road from a crossing, a player may immediately place a personal item on the ground (as an anchor) to create a temporary personal safe zone.
+    \item Alternatively, after exit a road from a crossing, a player may immediately remain stationary and declare a personal safe zone.
+ 	\item If neither of the above are done, a player re-enters the game.
+\end{enumerate}
+
+Roads bordering campus include (but not limited to):
+\begin{itemize}
+\item South Street
+\item African Street
+\item Summerset Street
+\item Grey/Beaufort Street
+\item Lucas Street
+\end{itemize}
+are subject to the following rules:
+\begin{enumerate}[(a)]
+\item The side walk (on campus side) is considered a no-play zone.
+\item Other road rules still apply.
+\item Players are warned not use these roads to circumvent play zones.
+\end{enumerate}
+
+
+\subsubsection{Cars and any other forms of transport}
+\begin{enumerate}[(a)]
+    \item Players who travel to campus via car may do so as per usual.
+    \item Players within vehicles (running or otherwise) are considered to be in a no-play area.
+    \item Players may remove their bandanna's as they reach their vehicle, doing so indicates their intent to safely leave the play zone.
+    \item Players should avoid using a vehicle while on campus, unless it is an emergency.
+    \item Players found to be abusing vehicles are liable to be suspended.
+\end{enumerate}
+
+\subsection{Suspension}
+
+\begin{enumerate}[(a)]
+    \item A suspended player must cease play at once.
+    \item A suspended player does not wear a bandanna.
+    \item Until specified, a suspension is permanent.
+    \item The suspension time may be specified by agreement of the administrator team members present, or deferred to the \emph{Supreme Zombie Overlord} for ruling.
+    \item Once the specified time-frame has elapsed, the player may re-initiate play from a safe zone (He does not need an administrator present).
+    \item The suspension may have additional specifications.
+    \item The \emph{Supreme Zombie Overlord} may overrule or initiate a suspension at any time. 
+\end{enumerate}
+
+\subsection{Ammunition}
+\begin{enumerate}[(a)]
+    \item Ammunition must be either {\bf a clean balled up sock} or {\bf a clean soft piece of fabric held in a ball by elastic}.
+    \item No other modifications to ammunition is permitted. (No bolas, flails, whips or any other melee weapons.)
+    \item Hard fabrics (such as denim or canvas) may not be used.
+    \item Ammunition may only be thrown by hand.
+    \item Ammunition may not be used in melee.
+    \item Any non-clean, non-soft component within ammunition is liable to get a player suspended.
+    \item A zombie (or stunned zombie) may not interact with ammunition. 
+    \item A human may request a zombie (or stunned zombie) to kick or knock ammunition towards them, the zombie (or stunned zombie) may honour this request if they wish.
+    \item An incubating human who chooses to help the zombies during their incubation period is considered a zombie for these rules when interacting with ammo owned by other players. 
+\end{enumerate}
+
+\subsection{Personal Safe Zones}
+\label{PersonalSafeZoneRules}
+After crossing a road, any player has the option to declare a personal safe zone.
+\begin{enumerate}[(a)]
+    \item Personal safe zones are valid as safe zones only for the person who created it.
+    \item Personal safe zones may not be moved, or changed in any way.
+    \item A human in a personal safe zone is immune from being bitten.
+    \item Zombies in a personal safe zone are immune from being stunned.
+    \item Other players may not enter your personal safe zone.
+    \item Zombies may not reach into your personal safe zone.
+\end{enumerate} 
+
+\subsubsection{Safe Zones around an anchor}
+
+\begin{enumerate}[(a)]
+    \item Valid anchors include bags, jackets, socks, shoes, or any item that will not blow away in the wind.
+    \item Players must be able to touch the anchor at all times, or forfeit that personal safe zone around it.
+    \item The anchor may not be shifted in position in any way.
+    \item Bags used as anchors may be accessed, but still not moved.
+    \item Anchors may not be switched in any way.
+    \item Please do {\bf NOT} use wallets or cell-phones as anchors.
+\end{enumerate}
+
+\subsubsection{Safe Zones without an anchor}
+\begin{enumerate}[(a)]
+    \item Players must remain stationary, or forfeit their personal safe zone.
+    \item Players may not edge around slowly, this is considered moving.
+    \item Players may sit down or stand up in the same spot. 
+    \item Players must be careful to not move their feet from where they were standing or sitting as this is deemed to be moving and voids the safe zone.
+\end{enumerate}
+
+\subsection{Disputes}
+\begin{enumerate}[(a)]
+    \item Players must report disputes to an administrator within one hour.
+    \item Both parties will be required to testify in the event of a dispute, refusal to do so will result in penalisation.
+    \item Administrator rulings are final, except if overruled by the Supreme Zombie Overlord.
+    \item Disputes will be recorded, and repeat offenders will be penalized. 
+\end{enumerate}
+
+\subsection{Missions}
+Missions are generally held in the evenings around 7:00 p.m.
+\begin{enumerate}[(a)]
+	\item Each mission will begin with a briefing of the rules and goals, players must attend these briefings to participate in missions.
+	\item Missions are optional.
+	\item Any rules mentioned above may change during missions.
+	\item The result of a mission may permanently alter the game rules to the benefit or loss of a faction. E.g. reduced stun times for zombies, more safe zones for humans.
+\end{enumerate}
+
+\subsection{Noise}
+\begin{enumerate}[(a)]
+	\item No player, human or zombie, may make excessive or unreasonable noise anywhere on campus; near administrative, academic buildings or residences.
+	\item Excessive noise is any noise above that of a regular conversation when within a reasonable distance of the above mentioned locations.
+    \item The academic program comes first and foremost on campus and disruptions to this program will be dealt with as a serious breach of the rules.
+\end{enumerate}
+
+\subsection{Revives}
+Revives are items given to players as rewards for certain events such as successful missions. Revives can be used to restore an incubating player to alive.
+\begin{enumerate}[(a)]
+	\item Revives can be used to restore an incubating player to alive.
+	\item Revives may not be used to bring a zombie back to life.
+	\item A player who has access to a revive must still hand over their bite code to the zombie who tagged them.
+	\item The incubating player must take their revive to an administrator to receive a new bite code and have their status changed .
+
+\end{enumerate}
+
+\subsection{Other rules}
+All actions prohibited by Rhodes University policy and/or national law are prohibited in this game, any witnesses to such activity should report the persons involved and inform an administrator. Players caught breaking Rhodes University policy and/or national laws will be immediately suspended from play.
+
+\subsection{Injury \& Emergency}
+
+Rules for injuries and emergencies:
+\begin{enumerate}[(a)]
+    \item Any player may pause the game in the event of an emergency.
+    \item If the game is pause due to such an emergency, the players present must immediately contact emergency services if applicable. Furthermore, the event must be reported to an administrator as soon as possible.
+    \item Emergency numbers are listed on the website under the `Contact' section.
+\end{enumerate}
+
+\section{Online Regulations \& Acceptable Usage Policy}
+\begin{enumerate}[(a)]
+\item The purpose of the online platforms (website, Discord or Facebook) is to enhance the game and to make it more enjoyable for all. 
+\item No use of the online platforms for the purposes of abusing, belittling or otherwise defamatory behaviour will be tolerated.
+\item Use of these platforms may not bring GameSoc or Rhodes University into disrepute.
+\item Abuse of the above rules will result in the person being removed from that platform and suspended from the game. 
+\item What counts as abuse falls under the discretion of the administrator team and is not limited by intention of the accused party.
+\end{enumerate}
+
+\section{DON'T BE A DICK.}
+\label{dbad}
+Ultimately HvZ is about having fun, please be considerate of others.
+
+\subsection{Don't be a creep}
+The administrator team will not tolerate the use of social media or other communications platforms to intimidate, belittle or otherwise harass any player or non-player of the HvZ game.
+
+\begin{enumerate}[(a)]
+\item Players found to be playing with malicious intent will be suspended.
+\end{enumerate}
+
+
+\subsection{Golden Rule}
+When in doubt, don't be an idiot. 
+% or a ROCKET SHIP (_)_)::::::D
+
+
+
+%------------------------------------------------------------------------------------------------------------%
+
+\end{document}
